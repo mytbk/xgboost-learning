@@ -13,7 +13,7 @@ param = { 'max_depth': 3,
           'objective': 'reg:tweedie' }
 num_round = 400
 
-# tweedie, rmse = 3.758
+# tweedie, rmse = 3.756
 
 param = { 'max_depth': 4,
           'eta': 0.03,
@@ -25,7 +25,7 @@ param = { 'max_depth': 4,
           'colsample_bytree': 0.7,
           'eval_metric': 'rmse',
           'nthreads': 4,
-          'objective': 'count:poisson' }
+          'objective': 'reg:tweedie' }
 num_round = 600
 
 # linear, rmse = 3.764
